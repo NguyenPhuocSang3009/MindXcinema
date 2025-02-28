@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Listing</title>
+</head>
+<body>
+    <header>
+        <h1>Movie Listing</h1>
+        <nav>
+            <button onclick="window.location.href='register.html'">Đăng ký</button>
+            <button onclick="window.location.href='login.html'">Đăng nhập</button>
+            <button onclick="logout()">Đăng xuất</button>
+        </nav>
+    </header>
+    
+    <main>
+        <input type="text" id="search" placeholder="Tìm phim..." oninput="searchMovies()">
+        <div id="movies" class="container"></div>
+    </main>
+
+    
+</body>
+</html>
+
+<script src="java.js"></script>
